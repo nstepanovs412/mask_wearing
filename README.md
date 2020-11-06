@@ -1,10 +1,10 @@
-# Getting Started - TensorFlow
+# Wearing Masks Project on TensorFlow
 
 In the main export directory there is the exported model and a directory named variables that make up the Tensorflow model. There is also a file named signature.json which contains information about your Lobe project. With these, you are ready to use your model! If you want to see an example of how to use this model, there are instructions below for running a quick test script.
 
 ## Example Contents
 
-`signature.json` is created by Lobe and contains information about the model such as label names and the image size and shape the model expects.
+`signature.json` contains information about the model such as label names and the image size and shape the model expects.
 
 `tf_example.py` is a simple script to quickly test your exported model. It takes a path to an image on your file system, prepares the image and returns the predicted class and confidence level.
 
